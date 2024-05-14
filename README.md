@@ -20,3 +20,6 @@ Some initial exploratory data analysis included
 
 #Algorithm used
 Random Forest Classifier with validation criteria of Gini (Gini Impurity and Log Loss) GINI = 2 * (AUC) - 1, where AUC is the Receiver Operating Characteristic - Area Under Curve (ROC-AUC. Number of estimators is set to 100 and number of parallel jobs is set to 4.
+
+#Model Evaluation
+Evaluated the model using ROC-AUC Curve. Which resulted in 0.85
